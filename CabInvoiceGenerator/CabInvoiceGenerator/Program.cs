@@ -17,7 +17,7 @@ namespace CabInvoiceGenerator
             //Creating Object
             InvoiceGenerator invoiceGenerator = new InvoiceGenerator((RideType.NORMAL));
             //Calculate Fare double
-            double fare = invoiceGenerator.CalculateFare(2.0, 5);
+            double fare = invoiceGenerator.CalculateFare(2.0, 3);
             Console.WriteLine($"Fare: {fare}");
             Console.ReadLine();
         }
