@@ -8,12 +8,13 @@ namespace CabInvoiceGenerator
     public class CabInvoiceException : Exception
     {
         // Enum for defining different type of custom exception
-        /// Enum of exception type. <summary>
         /// Enum of exception type.
         public enum ExceptionType
         {
+            INVALID_RIDE_TYPE,
             INVALID_DISTANCE,
             INVALID_TIME,
+            INVALID_RIDES,
             NULL_RIDES,
             INVALID_USER_ID
         }
